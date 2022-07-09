@@ -1,0 +1,26 @@
+general {
+}
+order += "disk /"
+order += "memory" 
+order += "load"
+order += "tztime local"
+
+tztime local {
+        format = "%H:%M:%S %A, %d-%m-%Y"
+}
+
+
+load {
+        format = "%5min"
+}
+
+
+memory {
+        format = "%used"
+        threshold_degraded = "10%"
+        format_degraded = "MEMORY: %free"
+}
+
+disk "/" {
+        format = "%free"
+}
