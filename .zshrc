@@ -108,3 +108,10 @@ export NVM_DIR="$HOME/.nvm"
 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+
+# bun completions
+[ -s "/home/tpaliwal/.bun/_bun" ] && source "/home/tpaliwal/.bun/_bun"
+
+# Bun
+export BUN_INSTALL="/home/tpaliwal/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
