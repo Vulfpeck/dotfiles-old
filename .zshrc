@@ -115,3 +115,5 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # Bun
 export BUN_INSTALL="/home/tpaliwal/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+alias config='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
