@@ -31,5 +31,6 @@ for _, lsp in ipairs(servers) do
       end
     end,
     capabilities = capabilities,
+    single_file_support = true,
   }
 end

@@ -29,7 +29,7 @@ M.abc = {
       ":LazyGit <CR>",
       "Lazy Git",
     },
-    ["<C-`>"] = {
+    ["<C-j>"] = {
       function()
         require("nvterm.terminal").toggle "vertical"
       end,
@@ -38,8 +38,7 @@ M.abc = {
   },
 
   i = {
-    -- more keys!
-    ["<C-`>"] = {
+    ["<C-j>"] = {
       function()
         require("nvterm.terminal").toggle "vertical"
       end,
@@ -48,7 +47,7 @@ M.abc = {
   },
 
   t = {
-    ["<C-`>"] = {
+    ["<C-j>"] = {
       function()
         require("nvterm.terminal").toggle "vertical"
       end,
